@@ -22,7 +22,3 @@ This repo demonstrates a LangGraph-based research assistant system that uses mul
 - Topic briefings for finance or healthcare
 - Automated academic literature reviews
 - Assistant for analysts or research teams
-
-## Topics
-
-`LangGraph` `LangChain` `RAG` `Autonomous Agents` `AI Research Assistant` `Multi-Agent Systems`
