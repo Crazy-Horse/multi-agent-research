@@ -1,0 +1,13 @@
+{
+  "as_of_utc": "2026-01-11T13:36:30+00:00",
+  "dataset_id": "KC=F",
+  "end_date": "2025-01-01",
+  "notes": "Yahoo Finance OHLCV is used as a free proxy; may differ from official ICE settlement.",
+  "provider": "yahoo_finance",
+  "row_count": 2515,
+  "schema": "ohlcv-1d",
+  "start_date": "2015-01-01",
+  "symbols": [
+    "KC=F"
+  ]
+}

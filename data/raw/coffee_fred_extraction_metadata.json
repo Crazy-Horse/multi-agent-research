@@ -1,0 +1,12 @@
+{
+  "as_of_utc": "2026-01-13T09:11:24+00:00",
+  "dataset_id": "macro_fx_daily",
+  "end_date": "2025-01-01",
+  "fx_series_count": 36,
+  "notes": "FRED provides daily-ish series; World Bank series are annual and forward-filled to daily.",
+  "provider": "fredapi+worldbank",
+  "row_count": 3550,
+  "series_count": 39,
+  "start_date": "2015-01-01",
+  "symbols": null
+}

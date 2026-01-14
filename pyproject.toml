@@ -1,0 +1,50 @@
+[project]
+name = "multi-agent-research"
+version = "0.1.0"
+description = "Commodity feature pipeline (LangGraph deterministic nodes)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "numpy>=2.4.0",
+  "pandas>=2.3.3",
+  "pydantic>=2.12.5",
+  "langgraph>=1.0.5",
+  "yfinance>=1.0",
+  "requests>=2.32.0",
+  "python-dotenv>=1.0.1",
+  "fredapi>=0.5.2",
+]
+
+[project.scripts]
+commodity-pipeline = "langgraphagenticai.main:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = [
+  "ipykernel>=7.1.0",
+  "ipython>=9.8.0",
+  "ipywidgets>=8.1.8",
+  "jupyterlab-widgets>=3.0.16",
+]
+rag = [
+  "langchain>=1.2.0",
+  "langchain-community>=0.4.1",
+  "langchain-core>=1.2.5",
+  "faiss-cpu>=1.13.2",
+]
+llm = [
+  "openai>=2.14.0",
+  "langchain-openai>=1.1.6",
+  "langsmith>=0.5.1",
+]
+ui = [
+  "streamlit>=1.52.2",
+]

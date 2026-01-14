@@ -1,0 +1,47 @@
+{
+  "as_of_utc": "2026-01-13T09:11:30.786152+00:00",
+  "daily_vars": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "precipitation_sum",
+    "wind_speed_10m_max"
+  ],
+  "dataset_id": "daily_weather",
+  "end_date": "2025-01-01",
+  "locations": [
+    {
+      "latitude": -18.5,
+      "longitude": -44.6,
+      "name": "Brazil_MinasGerais"
+    },
+    {
+      "latitude": -19.5,
+      "longitude": -40.6,
+      "name": "Brazil_EspiritoSanto"
+    },
+    {
+      "latitude": 12.7,
+      "longitude": 108.1,
+      "name": "Vietnam_CentralHighlands"
+    },
+    {
+      "latitude": 2.5,
+      "longitude": -75.6,
+      "name": "Colombia_Huila"
+    },
+    {
+      "latitude": -5.4,
+      "longitude": 105.3,
+      "name": "Indonesia_Lampung"
+    },
+    {
+      "latitude": 8.5,
+      "longitude": 39.0,
+      "name": "Ethiopia_Oromia"
+    }
+  ],
+  "notes": "Open-Meteo archive daily weather for multiple coffee regions; aggregated downstream to date-level features.",
+  "provider": "open-meteo",
+  "row_count": 21924,
+  "start_date": "2015-01-01"
+}
