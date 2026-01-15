@@ -268,7 +268,7 @@ This project uses **`uv`** instead of `pip` because:
 
 ## Related Projects
 
-* **CrewAI version:** [<CREWAI_REPO_URL>]`(https://github.com/Crazy-Horse/crewai-multi-agent-research)`
+* **CrewAI version:** [CREWAI_REPO_URL](https://github.com/Crazy-Horse/crewai-multi-agent-research)
 * **Blog post:** `<BLOG_URL>`
 * **Architecture diagrams:** `<DIAGRAMS_URL>`
 
